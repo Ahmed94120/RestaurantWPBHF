@@ -1,0 +1,1099 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 08:17:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Darwin                                |Darwin
+PHP VERSION_________: 8.1.23                                |8.2.4
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.4 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1
+DOC ROOT____________: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+REQUEST URL_________: "http://localhost/RestaurantWPBHF"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: http://restaurantbhf.local/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+URL_NEW_____________: "http://localhost/RestaurantWPBHF"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/20231002_restaurantbhf_[HASH]_20231002231308_archive.zip"
+ARCHIVE SIZE________: 315.47MB
+CREATED_____________: 2023-10-02 23:13:08
+WP VERSION__________: 6.3.1
+DUP VERSION_________: 1.5.6
+LICENSE_____________: Free version
+DB VERSION__________: 8.0.16
+DB FILE SIZE________: 18.92MB
+DB TABLES___________: 14
+DB ROWS_____________: 4013
+URL HOME____________: http://restaurantbhf.local
+URL CORE____________: http://restaurantbhf.local
+URL CONTENT_________: http://restaurantbhf.local/wp-content
+URL UPLOAD__________: http://restaurantbhf.local/wp-content/uploads
+URL PLUGINS_________: http://restaurantbhf.local/wp-content/plugins
+URL MU PLUGINS______: http://restaurantbhf.local/wp-content/mu-plugins
+URL THEMES__________: http://restaurantbhf.local/wp-content/themes
+PATH HOME___________: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public
+PATH ABS____________: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public
+PATH WPCONFIG_______: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public
+PATH WPCONTENT______: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public/wp-content
+PATH UPLOADS________: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public/wp-content/uploads
+PATH PLUGINS________: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public/wp-content/plugins
+PATH MUPLUGINS______: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public/wp-content/mu-plugins
+PATH THEMES_________: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "restaurantbhf.local/"
+
+PLUGINS
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:demo-importer-plus/demo-importer-plus.php         ][ON:true ]  Demo Importer Plus
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:mega-elements-addons-for-elementor/mega-elements-addons-for-elementor.php][ON:true ]  Mega Elements - Addons for Elementor
+PLUGIN [SLUG:rishi-companion/rishi-companion.php               ][ON:true ]  Rishi Companion
+
+********************************************************************************
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04423]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03403]  MESSAGE:END RENDER PAGE
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00051]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+--------------------------------------
+LOG-TIME[DELTA:   0.00751]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00470]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00270]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00120]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW PROCEDURE STATUS
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.database.service.php[608]
+TRACE[2] CLASS___: DUPX_Validation_database_service->dbHasProcedures FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.database.service.php[481]
+TRACE[3] CLASS___: DUPX_Validation_database_service->dbCheckUserPerms FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/database-tests/class.validation.test.db.user.perms.php[28]
+TRACE[4] CLASS___: DUPX_Validation_test_db_user_perms->runTest FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[5] CLASS___: DUPX_Validation_abstract_item->test FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[6] CLASS___: DUPX_Validation_manager->runTests FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[7] CLASS___: DUPX_Validation_manager->getValidateData FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[9] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW FUNCTION STATUS
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.database.service.php[625]
+TRACE[2] CLASS___: DUPX_Validation_database_service->dbHasFunctions FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.database.service.php[489]
+TRACE[3] CLASS___: DUPX_Validation_database_service->dbCheckUserPerms FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/database-tests/class.validation.test.db.user.perms.php[28]
+TRACE[4] CLASS___: DUPX_Validation_test_db_user_perms->runTest FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[5] CLASS___: DUPX_Validation_abstract_item->test FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[6] CLASS___: DUPX_Validation_manager->runTests FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[7] CLASS___: DUPX_Validation_manager->getValidateData FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[9] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.01423]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00043]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00068]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00023]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 08:18:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "RestaurantBHF"
+HOME URL NEW________: "http://localhost/RestaurantWPBHF"
+SITE URL NEW________: "http://localhost/RestaurantWPBHF/"
+CONTENT URL NEW_____: "http://localhost/RestaurantWPBHF/wp-content"
+UPLOAD URL NEW______: "http://localhost/RestaurantWPBHF/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/RestaurantWPBHF/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/RestaurantWPBHF/wp-content/mu-plugins"
+HOME PATH NEW_______: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+SITE PATH NEW_______: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/"
+CONTENT PATH NEW____: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content"
+UPLOAD PATH NEW_____: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/uploads"
+PLUGINS PATH NEW____: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/20231002_restaurantbhf_[HASH]_20231002231308_installer-backup.php"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/20231002_restaurantbhf_[HASH]_20231002231308_archive.zip"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/installer.php"
+	FILE: "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer-bootlog__499bb8e-02231308.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20231002_restaurantbhf_[HASH]_20231002231308_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 10688
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 08:18:39 - RUNTIME: 4.6565 sec. - Files processed: 10,082 of 10,082
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 08:18:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     237] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    3183] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     444] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_term_relationships"___________________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_usermeta"_____________________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 8.0.16
+FILE SIZE:	dup-database__[HASH].sql (15.6MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW PROCEDURE STATUS WHERE db='RestaurantWPBHF'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Deploy/Database/DbCleanup.php[161]
+TRACE[2] CLASS___: Duplicator\Installer\Core\Deploy\Database\DbCleanup::dropProcs FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[582]
+TRACE[3] CLASS___: DUPX_DBInstall->dbActionEmpty FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[547]
+TRACE[4] CLASS___: DUPX_DBInstall->prepareDB  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[205]
+TRACE[5] CLASS___: DUPX_DBInstall->deploy     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[217]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+PROCEDURE CLEAN ERROR: Could not get list of PROCEDURES to drop them.
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW FUNCTION STATUS WHERE db='RestaurantWPBHF'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Deploy/Database/DbCleanup.php[223]
+TRACE[2] CLASS___: Duplicator\Installer\Core\Deploy\Database\DbCleanup::dropFuncs FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[583]
+TRACE[3] CLASS___: DUPX_DBInstall->dbActionEmpty FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[547]
+TRACE[4] CLASS___: DUPX_DBInstall->prepareDB  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[205]
+TRACE[5] CLASS___: DUPX_DBInstall->deploy     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[217]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+FUNCTION CLEAN ERROR: Could not get list of FUNCTIONS to drop them.
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+FAILED QUERY LIMIT [QLEN:1285829|MAX:1048576]
+	[SQL=INSERT INTO `wp_options` VALUES("171", "rishi__cb_customizer_google_fonts", "a:2:{s:11:\"last_update\";i:1696175130;s:5:\"fonts\";s:1143290:\"{\r\n  \"kind\": \"webfonts#webfontList\",\r\n  \"items\":...]
+
+
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Got a packet bigger than 'max_allowed_packet' bytes
+	SQL: INSERT INTO `wp_options` VALUES("171", "rishi__cb_customizer_google_fonts", "a:2:{s:11:\"last_update\";i:1696175130;s:5:\"fonts\";s:1143290:\"{\r\n  \"kind\": \"webfonts#webfontList\",\r\n  \"items\": [\r\n    {\r\n      \"family\": \"ABeeZee\",\r\n      \"variants\": [\r\n        \"regular\",\r\n        \"italic\"\r\n      ],\r\n      \"subsets\": [\r\n        \"latin\",\r\n        \"latin-ext\"\r\n      ],\r\n      \"version\": \"v22\",\r\n      \"lastModified\": \"2022-09-22\",\r\n      \"fil
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[1069]
+TRACE[2] CLASS___: DUPX_DBInstall->writeQueryInDB FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[728]
+TRACE[3] CLASS___: DUPX_DBInstall->deployDatabaseChunkMode FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[269]
+TRACE[4] CLASS___: DUPX_DBInstall->insertDatabase FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[243]
+TRACE[5] CLASS___: DUPX_DBInstall->deploy     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[217]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+
+EXCEPTION ERROR:  Malformed packet
+	FILE:/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[506]
+	TRACE:
+#0 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php(506): mysqli_ping(Object(mysqli))
+#1 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php(1112): DUPX_DBInstall->pingAndReconnect()
+#2 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php(728): DUPX_DBInstall->writeQueryInDB('INSERT INTO `wp...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php(269): DUPX_DBInstall->deployDatabaseChunkMode()
+#4 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php(243): DUPX_DBInstall->insertDatabase()
+#5 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php(217): DUPX_DBInstall->deploy()
+#6 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('dbinstall')
+#7 /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php(56): DUPX_Ctrl_ajax::controller()
+#8 {main}
+
+AJAX ACTION [dbinstall] FAIL, MESSAGE: Malformed packet
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 8.0.16
+FILE SIZE:	dup-database__[HASH].sql (15.6MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_commentmeta
+DROP TABLE wp_comments
+DROP TABLE wp_duplicator_packages
+DROP TABLE wp_e_events
+DROP TABLE wp_links
+DROP TABLE wp_options
+DROP TABLE wp_postmeta
+DROP TABLE wp_posts
+DROP TABLE wp_term_relationships
+DROP TABLE wp_term_taxonomy
+DROP TABLE wp_termmeta
+DROP TABLE wp_terms
+DROP TABLE wp_usermeta
+DROP TABLE wp_users
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW PROCEDURE STATUS WHERE db='RestaurantWPBHF'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Deploy/Database/DbCleanup.php[161]
+TRACE[2] CLASS___: Duplicator\Installer\Core\Deploy\Database\DbCleanup::dropProcs FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[582]
+TRACE[3] CLASS___: DUPX_DBInstall->dbActionEmpty FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[547]
+TRACE[4] CLASS___: DUPX_DBInstall->prepareDB  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[205]
+TRACE[5] CLASS___: DUPX_DBInstall->deploy     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[217]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+PROCEDURE CLEAN ERROR: Could not get list of PROCEDURES to drop them.
+DB QUERY [ERROR][/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/classes/database/class.db.php:645] MSG: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SQL: SHOW FUNCTION STATUS WHERE db='RestaurantWPBHF'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Deploy/Database/DbCleanup.php[223]
+TRACE[2] CLASS___: Duplicator\Installer\Core\Deploy\Database\DbCleanup::dropFuncs FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[583]
+TRACE[3] CLASS___: DUPX_DBInstall->dbActionEmpty FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[547]
+TRACE[4] CLASS___: DUPX_DBInstall->prepareDB  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[205]
+TRACE[5] CLASS___: DUPX_DBInstall->deploy     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[217]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/main.installer.php[56]
+
+FUNCTION CLEAN ERROR: Could not get list of FUNCTIONS to drop them.
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	14
+RENAMED TABLES:	0
+QUERIES RAN:	3975
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     2]
+TABLE "wp_e_events"_____________________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   237]
+TABLE "wp_postmeta"_____________________________________[ROWS:  3183]
+TABLE "wp_posts"________________________________________[ROWS:   444]
+TABLE "wp_term_relationships"___________________________[ROWS:    38]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     9]
+TABLE "wp_termmeta"_____________________________________[ROWS:     9]
+TABLE "wp_terms"________________________________________[ROWS:     9]
+TABLE "wp_usermeta"_____________________________________[ROWS:    25]
+TABLE "wp_users"________________________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 6.2518 sec.
+STEP-2 COMPLETE @ 08:18:46 - RUNTIME: 6.2518 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public REPLACE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public REPLACE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://restaurantbhf.local REPLACE: http://localhost/RestaurantWPBHF/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://restaurantbhf.local REPLACE: http://localhost/RestaurantWPBHF [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 08:18:46
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    40]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   197][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3183][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   444][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    38][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/Users/ahmedbouhafa/Local Sites/restaurantbhf/app/public" => "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+	SEARCH[urlnd]  2:"http://restaurantbhf.local" ======================> "http://localhost/RestaurantWPBHF"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:14 	|	 Rows:3878 	|	 Cells:23983 
+UPDATED:	Tables:4 	|	 Rows:524 	|	 Cells:585 
+ERRORS:		0 
+RUNTIME:	0.477200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php
+New htaccess file created:/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/RestaurantWPBHF/"
+	UPDATE DB_NAME ""RestaurantWPBHF""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF"
+--------------------------------------
+[PHP ERR][E_WARNING] MSG:chmod(): Operation not permitted [CODE:2|FILE:/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/libs/Snap/SnapIO.php|LINE:835]
+CHMOD FAIL: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/ PERMS: 0755
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:18:46 - RUNTIME: 0.5648 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] PROCEDURE CLEAN ERROR: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SECTIONS: database
+	LONG MSG: Unable to get list of PROCEDURES from database "RestaurantWPBHF".
+
+-----------------------
+[WARNING] FUNCTION CLEAN ERROR: Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100428. Please use mysql_upgrade to fix this error
+	SECTIONS: database
+	LONG MSG: Unable to get list of FUNCTIONS from database "RestaurantWPBHF".
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$admin_settings is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[65]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$public_settings is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[66]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$header_manager is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[67]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$font_sources is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[70]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$extensions_manager is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[93]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->load_extensions_manegerFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property EDD_Theme_Updater_Admin::$item_name is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater-admin.php[58]
+	--- TRACE ---
+	CLASS___: EDD_Theme_Updater_Admin->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater.php[14]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/functions.php[98]
+	FUNCTION: include                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[600]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property EDD_Theme_Updater_Admin::$beta is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater-admin.php[64]
+	--- TRACE ---
+	CLASS___: EDD_Theme_Updater_Admin->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater.php[14]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/functions.php[98]
+	FUNCTION: include                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[600]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property EDD_Theme_Updater_Admin::$item_id is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater-admin.php[65]
+	--- TRACE ---
+	CLASS___: EDD_Theme_Updater_Admin->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater.php[14]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/functions.php[98]
+	FUNCTION: include                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[600]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/index.php[17]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF//wp-login.php
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$admin_settings is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[65]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$public_settings is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[66]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$header_manager is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[67]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$font_sources is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[70]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[49]
+	CLASS___: Rishi\Rishi_Companion::instanceFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[46]
+	FUNCTION: RISHI_CMPN                    FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/rishi-companion.php[49]
+	FUNCTION: include_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Rishi\Rishi_Companion::$extensions_manager is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/plugins/rishi-companion/includes/Rishi_Companion.php[93]
+	--- TRACE ---
+	CLASS___: Rishi\Rishi_Companion->load_extensions_manegerFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property EDD_Theme_Updater_Admin::$item_name is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater-admin.php[58]
+	--- TRACE ---
+	CLASS___: EDD_Theme_Updater_Admin->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater.php[14]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/functions.php[98]
+	FUNCTION: include                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[600]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property EDD_Theme_Updater_Admin::$beta is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater-admin.php[64]
+	--- TRACE ---
+	CLASS___: EDD_Theme_Updater_Admin->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater.php[14]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/functions.php[98]
+	FUNCTION: include                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[600]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property EDD_Theme_Updater_Admin::$item_id is deprecated
+	FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater-admin.php[65]
+	--- TRACE ---
+	CLASS___: EDD_Theme_Updater_Admin->__constructFILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/updater/theme-updater.php[14]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/themes/rishi/functions.php[98]
+	FUNCTION: include                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-settings.php[600]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-config.php[104]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-load.php[50]
+	FUNCTION: require                       FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/wp-content/wp_test_script_499bb8e-02231308.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/Applications/XAMPP/xamppfiles/htdocs/RestaurantWPBHF/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02956]  MESSAGE:END RENDER PAGE
